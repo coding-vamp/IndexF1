@@ -3,6 +3,19 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Node
+node_modules/
+.next/
+
+# Machine Learning
+*.pkl
+*.joblib
+
+# Python
+.venv/
+*.pyc
+.fastf1_cache/
+
 # C extensions
 *.so
 
@@ -44,7 +57,6 @@ htmlcov/
 .coverage.*
 .cache
 nosetests.xml
-coverage.xml
 *.cover
 *.py.cover
 *.lcov
@@ -151,6 +163,8 @@ activemq-data/
 
 # Environments
 .env
+.env.local
+.env.*.local
 .envrc
 .venv
 env/
